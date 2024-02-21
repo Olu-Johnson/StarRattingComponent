@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.star{
+  cursor : pointer
+}
+input[type=radio] {
+  display : none
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,6 @@
   to {
     transform: rotate(360deg);
   }
+ 
+  
 }
